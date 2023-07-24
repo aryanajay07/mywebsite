@@ -1,0 +1,50 @@
+
+table{
+  margin: 23px;
+  width: 50%;
+  border-collapse: collapse;
+}
+th,td{
+  padding: 7px;
+  text-align: left;
+   border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  color: rgb(6, 8, 12);
+}
+th{
+  background-color:#f2f2f2;
+  text-align: center;
+}
+.ml-9{
+  display: inline;
+  text-align: center;
+  margin: 34px;
+  padding: 13px;
+  font-weight: bold;
+  color: orange;
+  font-style: italic;
+  font-size: 34px;
+  width: 69px; 
+}
+.m-9{
+  display: inline-block;
+  padding: 12px;
+  margin: 23px;
+  color: black;
+  font-weight: bold;
+}
+.m-3{
+  font-weight: 900;
+}
+
+.m-9 a{
+  background-color: rgb(225, 225, 243);
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 19px;
+}
+.m-9 a:hover{
+  background-color: rgb(197, 197, 243);
+}

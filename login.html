@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login </title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body> 
+    <nav>
+    <div class="container1">
+      <h1 class="logo">
+     <img src="logo.png" alt="logo">MyRecipe </h1>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="adminLogin.html" class="login">LogInAsAdmin</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="login-box">
+       
+      <h2>Login</h2>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn" value="login" onclick="validateLogin()">Login</button>
+      </form>
+      <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
